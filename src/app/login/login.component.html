@@ -1,0 +1,19 @@
+<form (submit)="loginUser($event)">
+  <input type="text" placeholder="Username" id="Username">
+
+  <input type="password" placeholder="password" id="Password">
+  <input type="submit">
+
+</form>
+
+<table>
+  <thead>
+      <th>Name</th>
+      <th>Index</th>
+  </thead>
+  <tbody>
+      <tr *ngFor="let data_point of datapoints">
+          <td>{{data_point._fields}}</td>
+      </tr>
+  </tbody>
+</table>

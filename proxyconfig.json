@@ -1,0 +1,6 @@
+{
+  "/test_api": {
+    "target":"http://localhost:4600",
+    "secure":false,
+    "changeOrigin":true
+  }}
